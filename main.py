@@ -83,4 +83,5 @@ if submit and user_input.strip():
             break
     st.session_state.messages.append({"role": "bot", "content": reply})
 
-st.markdown('<div class="footer">Made by Rubina Sharif 💖</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">💖</div>', unsafe_allow_html=True)
+
